@@ -60,3 +60,9 @@
   ```
   npm run flow stop
   ```
+
+  ### 3. Code Quality Validation before Commit
+- Install Husky via Yarn
+  ```
+  yarn add husky --dev
+  ```
