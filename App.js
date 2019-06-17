@@ -69,9 +69,6 @@ export default class App extends Component<Props, State> {
         {/* <View>
           <OrderDetailRow order={orderList[0]} />
         </View> */}
-        <View>
-          <Text>{orderList[0].id}</Text>
-        </View>
         <FlatList
           contentContainerStyle={styles.container}
           data={orderList}
