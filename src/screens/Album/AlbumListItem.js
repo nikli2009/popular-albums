@@ -8,7 +8,7 @@ type Props = {
   order: Order
 };
 
-class OrderDetailRow extends Component<Props> {
+class AlbumDetail extends Component<Props> {
   render() {
     const { order } = this.props;
 
@@ -21,4 +21,4 @@ class OrderDetailRow extends Component<Props> {
   }
 }
 
-export default OrderDetailRow;
+export default AlbumDetail;
