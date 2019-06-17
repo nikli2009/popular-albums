@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "flow": "flow",
     "test": "jest"
@@ -13,10 +15,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/preset-flow": "^7.0.0",
     "@babel/runtime": "^7.4.5",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.8.0",
-    "babel-preset-flow": "^6.23.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.3",
