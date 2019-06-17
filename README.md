@@ -92,4 +92,4 @@
   yarn add --dev lint-staged
   ```
 - TEST - Try to violate any ESLint rules and commit (CommandLine and Tool like SourceTree will both show error and stop you from proceeding)
-- Test
+- TEST switch node version for lint-staged;
