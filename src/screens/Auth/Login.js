@@ -18,7 +18,7 @@ class Login extends Component<Props, State> {
     return (
       <View style={styles.container}>
         <TouchableHighlight onPress={this.handleOnPress}>
-          <Text>Please Login</Text>
+          <Text>Please Login Nikk</Text>
         </TouchableHighlight>
       </View>
     );
